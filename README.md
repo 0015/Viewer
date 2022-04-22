@@ -8,7 +8,7 @@ It categorizes videos from YouTube channels in different ways and shows them to 
 It's using the Unity Game Engine to represent the videos on my channel in a different way. I hope you try this one I made. Also, you can try it on your end. (It works on Desktop Web Browser/Android Phone or Tablet) 
 
 <a href="https://0015.github.io/viewer">
-<img width="320" src="https://github.com/0015/Viewer/blob/master/misc/Youtube_Viewer.gif">
+<img width="320" src="https://github.com/0015/Viewer/blob/main/misc/Youtube_Viewer.gif">
 </a>
 
 ### Created & Maintained By

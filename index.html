@@ -12,7 +12,7 @@
   </head>
     <body style="text-align: center; background: #000000">
     <canvas id="unity-canvas" width=1920 height=1080 style="width: 100vw; height: 100vh; background: #000000"></canvas>
-    <script src="Build/Youtube_Contents_Viewer.loader.js"></script>
+    <script src="Build/Youtube_Contents_Viewer_1.0.1.loader.js"></script>
     <script>
       if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
         // Mobile device style: fill the whole browser client area with the game canvas:
@@ -23,13 +23,13 @@
       }
 
       createUnityInstance(document.querySelector("#unity-canvas"), {
-        dataUrl: "Build/8f625e950795a2bb672bafe19aeb2cc2.data",
+        dataUrl: "Build/c7698ec3ece8bb951656ddeb5da8bc0a.data",
         frameworkUrl: "Build/acafcac79f6754e85099b49c9271f6a6.js",
         codeUrl: "Build/24f6ce3db7a95e7c426c6ff8b7fd0e41.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "ThatProject",
         productName: "My Youtube Contents Viewer",
-        productVersion: "1.0",
+        productVersion: "1.0.1",
         // matchWebGLToCanvasSize: false, // Uncomment this to separately control WebGL canvas render size and DOM element size.
         // devicePixelRatio: 1, // Uncomment this to override low DPI rendering on high DPI displays.
       });
